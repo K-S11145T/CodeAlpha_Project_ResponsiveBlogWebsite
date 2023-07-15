@@ -1,0 +1,55 @@
+@media screen and (max-width:1200px) {
+    .navigation {
+        flex-direction: column;
+        /* margin-bottom: 23px; */
+    }
+
+    .navleft {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article img {
+        text-align: center;
+        width: 70vw;
+    }
+
+    .yearbox {
+        /* display: flex; */
+        font-size: 11px;
+        top: 25px;
+        left: 80vw;
+        width: 100px;
+        height: 20px;
+    }
+
+    .yearbox div {
+        font-size: 9px;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+    .form-box input,
+    textarea {
+        width: 66vw;
+        align-items: center;
+        display: flex;
+        margin: 7px 12vw; 
+    }
+    .row{
+        flex-direction: column;
+    }
+    .max-width-1{
+        max-width: 94vw;
+    }
+}
